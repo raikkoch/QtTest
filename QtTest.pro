@@ -14,9 +14,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    person.cpp
+    person.cpp \
+    dateneingabe.cpp
 
 HEADERS  += mainwindow.h \
-    person.h
+    person.h \
+    dateneingabe.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    dateneingabe.ui

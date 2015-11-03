@@ -37,11 +37,15 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
         MainWindow->resize(400, 300);
+        MainWindow->setToolButtonStyle(Qt::ToolButtonIconOnly);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(10, 140, 171, 61));
+        pushButton->setCursor(QCursor(Qt::ArrowCursor));
+        pushButton->setFocusPolicy(Qt::NoFocus);
+        pushButton->setLayoutDirection(Qt::LeftToRight);
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -61,7 +65,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Personendatenbank", 0));
         pushButton->setText(QApplication::translate("MainWindow", "Daten eingeben", 0));
     } // retranslateUi
 
