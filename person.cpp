@@ -1,15 +1,15 @@
 #include "person.h"
-#include <string>
+#include <QString>
 
 Person::Person(){}
 
-void Person::setName(std::string name){this -> name = name;}
-void Person::setVorname(std::string vorname){this -> vorname = vorname;}
-void Person::setEmail(std::string email){this -> email = email;}
+void Person::setName(QString name){this -> name = name;}
+void Person::setVorname(QString vorname){this -> vorname = vorname;}
+void Person::setEmail(QString email){this -> email = email;}
 void Person::setAlter(int alter){this -> alter = alter;}
 
-std::string Person::getName(){return this -> name;}
-std::string Person::getVorname(){return this -> vorname;}
-std::string Person::getEmail(){return this -> email;}
+QString Person::getName(){return this -> name;}
+QString Person::getVorname(){return this -> vorname;}
+QString Person::getEmail(){return this -> email;}
 int Person::getAlter(){return this ->alter;}
 

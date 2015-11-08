@@ -17,6 +17,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
 
@@ -31,6 +32,8 @@ public:
     QLineEdit *lineEditVorname;
     QLineEdit *lineEdit;
     QLineEdit *lineEditAlter;
+    QPushButton *buttonSpeichern;
+    QPushButton *buttonAbbrechen;
 
     void setupUi(QDialog *Dateneingabe)
     {
@@ -49,7 +52,7 @@ public:
         labelVorname->setGeometry(QRect(60, 70, 59, 16));
         labelEmail = new QLabel(Dateneingabe);
         labelEmail->setObjectName(QStringLiteral("labelEmail"));
-        labelEmail->setGeometry(QRect(60, 100, 59, 16));
+        labelEmail->setGeometry(QRect(60, 100, 121, 16));
         labelAlter = new QLabel(Dateneingabe);
         labelAlter->setObjectName(QStringLiteral("labelAlter"));
         labelAlter->setGeometry(QRect(60, 130, 59, 16));
@@ -62,6 +65,12 @@ public:
         lineEditAlter = new QLineEdit(Dateneingabe);
         lineEditAlter->setObjectName(QStringLiteral("lineEditAlter"));
         lineEditAlter->setGeometry(QRect(190, 130, 171, 21));
+        buttonSpeichern = new QPushButton(Dateneingabe);
+        buttonSpeichern->setObjectName(QStringLiteral("buttonSpeichern"));
+        buttonSpeichern->setGeometry(QRect(40, 220, 113, 32));
+        buttonAbbrechen = new QPushButton(Dateneingabe);
+        buttonAbbrechen->setObjectName(QStringLiteral("buttonAbbrechen"));
+        buttonAbbrechen->setGeometry(QRect(230, 220, 113, 32));
 
         retranslateUi(Dateneingabe);
 
@@ -75,6 +84,8 @@ public:
         labelVorname->setText(QApplication::translate("Dateneingabe", "Vorname", 0));
         labelEmail->setText(QApplication::translate("Dateneingabe", "Email", 0));
         labelAlter->setText(QApplication::translate("Dateneingabe", "Alter", 0));
+        buttonSpeichern->setText(QApplication::translate("Dateneingabe", "Speichern", 0));
+        buttonAbbrechen->setText(QApplication::translate("Dateneingabe", "Abbrechen", 0));
     } // retranslateUi
 
 };

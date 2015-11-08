@@ -15,6 +15,11 @@ public:
     explicit Dateneingabe(QWidget *parent = 0);
     ~Dateneingabe();
 
+private slots:
+    void on_buttonAbbrechen_clicked();
+
+    void on_buttonSpeichern_clicked();
+
 private:
     Ui::Dateneingabe *ui;
 };
