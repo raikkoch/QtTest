@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>140</y>
+      <y>100</y>
       <width>171</width>
       <height>61</height>
      </rect>
@@ -37,6 +37,38 @@
     </property>
     <property name="text">
      <string>Daten eingeben</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>299</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Daten ausgeben</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>171</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Beenden</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>299</number>
     </property>
    </widget>
   </widget>

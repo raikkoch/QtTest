@@ -25,17 +25,20 @@
 		4447A97213F15BCECE53797D /* moc_mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F5D0DEB87E5FDB9DD3B8C509 /* moc_mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
 		5CD04BF58A8F42E5BB7EE1B5 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 67AAC7B5B390A64B5D817CEB /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		7018A0420630260A06BE55C7 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5CD898CE5005106305CFC89D /* QtCore.framework */; };
+		7AD362B8BB9ADBB91CAC11C0 /* moc_dateneingabe.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 52FEAD866C1CDC56EDC334D2 /* moc_dateneingabe.cpp */; settings = {ATTRIBUTES = (); }; };
 		81883E5145ABC89DD973ECE2 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A584D59ACF7509EAC1F0CDC5 /* QtWidgets.framework */; };
 		82355BC304BB99572D39F5EF /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 231AAA855C106547E3219854 /* QtGui.framework */; };
 		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
 		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
 		989B21983FE09D47D7DDBDE1 /* mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E9EBA04D65271A1B27DB97C6 /* mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
 		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B3A05E27E20FD33453F5DFC6 /* person.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 288EFB4B0F93A5D2472EC1FC /* person.cpp */; settings = {ATTRIBUTES = (); }; };
 		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		E4B9A5EAD7D802682943D362 /* dateneingabe.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 58C0026BB36129B50FC57056 /* dateneingabe.cpp */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9470E64C1BE687A500E9FF42 /* PBXContainerItemProxy */ = {
+		94FB9C281BEF8E2300F05175 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
 			proxyType = 1;
@@ -45,21 +48,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099AF6EB6217A068A286C0A8 /* ui_dateneingabe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_dateneingabe.h; path = /Users/raikk/Documents/QtTest/ui_dateneingabe.h; sourceTree = "<absolute>"; };
 		231AAA855C106547E3219854 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/raikk/Qt/5.5/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		288EFB4B0F93A5D2472EC1FC /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = person.cpp; path = /Users/raikk/Documents/QtTest/person.cpp; sourceTree = "<absolute>"; };
 		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
 		4821CC771E2E8E4A812FCA2B /* QtTest.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = QtTest.pro; path = /Users/raikk/Documents/QtTest/QtTest.pro; sourceTree = "<absolute>"; };
+		52FEAD866C1CDC56EDC334D2 /* moc_dateneingabe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_dateneingabe.cpp; path = /Users/raikk/Documents/QtTest/moc_dateneingabe.cpp; sourceTree = "<absolute>"; };
+		58C0026BB36129B50FC57056 /* dateneingabe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dateneingabe.cpp; path = /Users/raikk/Documents/QtTest/dateneingabe.cpp; sourceTree = "<absolute>"; };
+		5C959DE09173DCC76B41753D /* dateneingabe.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = dateneingabe.ui; path = /Users/raikk/Documents/QtTest/dateneingabe.ui; sourceTree = "<absolute>"; };
 		5CD898CE5005106305CFC89D /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/raikk/Qt/5.5/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		62F10FA5054913FEC08FF0D0 /* dateneingabe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dateneingabe.h; path = /Users/raikk/Documents/QtTest/dateneingabe.h; sourceTree = "<absolute>"; };
 		67AAC7B5B390A64B5D817CEB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/raikk/Documents/QtTest/main.cpp; sourceTree = "<absolute>"; };
 		785211779491D1C1AFA71706 /* ui_mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mainwindow.h; path = /Users/raikk/Documents/QtTest/ui_mainwindow.h; sourceTree = "<absolute>"; };
+		850907A42AACB6DDB546D656 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = person.h; path = /Users/raikk/Documents/QtTest/person.h; sourceTree = "<absolute>"; };
 		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		A584D59ACF7509EAC1F0CDC5 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/raikk/Qt/5.5/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
 		AA1FEF476756286613668E0D /* QtTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QtTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02C63E6DE3C0F9C0EF98EAC /* mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mainwindow.h; path = /Users/raikk/Documents/QtTest/mainwindow.h; sourceTree = "<absolute>"; };
 		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		D9D4E7CC0A0D3F2D88900506 /* mainwindow.ui */ = {isa = PBXFileReference; lastKnownFileType = text; name = mainwindow.ui; path = /Users/raikk/Documents/QtTest/mainwindow.ui; sourceTree = "<absolute>"; };
+		D9D4E7CC0A0D3F2D88900506 /* mainwindow.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mainwindow.ui; path = /Users/raikk/Documents/QtTest/mainwindow.ui; sourceTree = "<absolute>"; };
 		E9EBA04D65271A1B27DB97C6 /* mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mainwindow.cpp; path = /Users/raikk/Documents/QtTest/mainwindow.cpp; sourceTree = "<absolute>"; };
 		F5D0DEB87E5FDB9DD3B8C509 /* moc_mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mainwindow.cpp; path = /Users/raikk/Documents/QtTest/moc_mainwindow.cpp; sourceTree = "<absolute>"; };
+		FF785683E36A9A87EFB01BA9 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/raikk/Documents/QtTest/.qmake.stash; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D4E7CC0A0D3F2D88900506 /* mainwindow.ui */,
+				5C959DE09173DCC76B41753D /* dateneingabe.ui */,
 			);
 			name = "Sources [uic]";
 			sourceTree = "<Group>";
@@ -93,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				F5D0DEB87E5FDB9DD3B8C509 /* moc_mainwindow.cpp */,
+				52FEAD866C1CDC56EDC334D2 /* moc_dateneingabe.cpp */,
 				785211779491D1C1AFA71706 /* ui_mainwindow.h */,
+				099AF6EB6217A068A286C0A8 /* ui_dateneingabe.h */,
 			);
 			name = "Generated Sources";
 			sourceTree = "<Group>";
@@ -103,7 +117,11 @@
 			children = (
 				67AAC7B5B390A64B5D817CEB /* main.cpp */,
 				E9EBA04D65271A1B27DB97C6 /* mainwindow.cpp */,
+				288EFB4B0F93A5D2472EC1FC /* person.cpp */,
+				58C0026BB36129B50FC57056 /* dateneingabe.cpp */,
 				B02C63E6DE3C0F9C0EF98EAC /* mainwindow.h */,
+				850907A42AACB6DDB546D656 /* person.h */,
+				62F10FA5054913FEC08FF0D0 /* dateneingabe.h */,
 			);
 			name = Sources;
 			sourceTree = "<Group>";
@@ -112,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4821CC771E2E8E4A812FCA2B /* QtTest.pro */,
+				FF785683E36A9A87EFB01BA9 /* .qmake.stash */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<Group>";
@@ -241,7 +260,10 @@
 			files = (
 				5CD04BF58A8F42E5BB7EE1B5 /* main.cpp in Compile Sources */,
 				989B21983FE09D47D7DDBDE1 /* mainwindow.cpp in Compile Sources */,
+				B3A05E27E20FD33453F5DFC6 /* person.cpp in Compile Sources */,
+				E4B9A5EAD7D802682943D362 /* dateneingabe.cpp in Compile Sources */,
 				4447A97213F15BCECE53797D /* moc_mainwindow.cpp in Compile Sources */,
+				7AD362B8BB9ADBB91CAC11C0 /* moc_dateneingabe.cpp in Compile Sources */,
 			);
 			name = "Compile Sources";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +274,7 @@
 		5720B7D3BADD832C69E1DAEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F22E9D8C6E11C3AA276BE1D9 /* Qt Preprocess */;
-			targetProxy = 9470E64C1BE687A500E9FF42 /* PBXContainerItemProxy */;
+			targetProxy = 94FB9C281BEF8E2300F05175 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -303,7 +325,7 @@
 					/Users/raikk/Qt/5.5/clang_64/lib,
 					/System/Library/Frameworks/,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = (
 					"-pipe",
 					"-O2",
@@ -386,7 +408,7 @@
 					/Users/raikk/Qt/5.5/clang_64/lib,
 					/System/Library/Frameworks/,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-pipe",
